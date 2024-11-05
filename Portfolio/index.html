@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Lirim Bajrami</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <main class="container mt-4">
+        <div class="row">
+            <aside class="col-md-4 text-center">
+                <div class="profile-picture mb-4">
+                    <img src="/Portfolio/Images/L.jfif" alt="Lirim Bajrami's Profile Picture" class="img-fluid rounded-circle border" style="width: 150px; height: 150px;">
+                </div>
+                <div class="contact-links">
+                    <div class="animated-name">Lirim Bajrami</div>
+                    <h3>Contact Me</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.linkedin.com/in/lirimbajrami/" target="_blank" class="text-decoration-none">LinkedIn</a></li>
+                        <li><a href="https://github.com/liriimb" target="_blank" class="text-decoration-none">GitHub</a></li>
+                        <li><a href="mailto:lirimsejdija12@gmail.com" class="text-decoration-none">lirimsejdija12@gmail.com</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <section class="col-md-8">
+                <h1>About Me</h1>
+                <p>Hello! I'm Lirim Bajrami, a developer with a background in Electrical Engineering, specializing in Electronics and Telecommunications. Currently, I’m pursuing a Bachelor’s Degree in Computer Science and Engineering at Mother Teresa University, where I’m enhancing my programming and problem-solving skills through hands-on projects.</p>
+                <div class="education my-4">
+                    <h2>Education</h2>
+                    <div>
+                        <h5>High School "8th-September"</h5>
+                        <p>Studied at the Electro-Technical School for Electronics and Telecommunications, where I gained foundational technical skills in electronics.</p>
+                        
+                        <h5>University Mother Teresa</h5>
+                        <p>Currently pursuing a Bachelor’s Degree in Computer Science and Engineering at Mother Teresa University. I am engaged in various programming courses, working on projects that enhance my analytical skills and practical knowledge. My studies allow me to delve into complex algorithms, data structures, and software design principles.</p>
+                    </div>
+                </div>
+
+                <div class="skills my-4">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML, CSS, and Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>C#, C# MVC with Entity Framework Core and Identity</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+
+                <div class="experience my-4">
+                    <h2>Experience</h2>
+                    <ul>
+                        <li>Developed an Arduino robot as a personal project, enhancing my programming and hardware integration skills.</li>
+                        <li>Freelance projects involving web development, creating responsive websites for local businesses.</li>
+                    </ul>
+                </div>
+
+                <div class="certificates my-4">
+                    <h2>Certificates</h2>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="card cert-card text-center">
+                                <img src="/Portfolio/Images/Cyber.jfif" alt="Cyber Security Certificate" class="card-img-top cert-image" id="cyberCert">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cyber Security Awareness</h5>
+                                    <p class="card-text">Basics of cybersecurity and protective practices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6">
+                            <div class="card cert-card text-center">
+                                <img src="/Portfolio/Images/JSE.jfif" alt="JavaScript Essentials Certificate" class="card-img-top cert-image" id="jsCert">
+                                <div class="card-body">
+                                    <h5 class="card-title">JavaScript Essentials</h5>
+                                    <p class="card-text">Fundamentals and best practices in JavaScript.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+   <div id="certificateModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Certificate</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="enlargedCertificate" src="" alt="Enlarged Certificate" class="img-fluid enlarged-cert-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
